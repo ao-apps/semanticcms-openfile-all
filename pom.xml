@@ -38,6 +38,7 @@ along with semanticcms-openfile-all.  If not, see <http://www.gnu.org/licenses /
 	<name>SemanticCMS OpenFile All</name>
 	<url>https://semanticcms.com/openfile/all/</url>
 	<description>Convenience POM to include most SemanticCMS desktop integration mode for local content creation features, not including documentation or examples.</description>
+	<inceptionYear>2016</inceptionYear>
 
 	<scm>
 		<connection>scm:git:git://github.com/aoindustries/semanticcms-openfile-all.git</connection>
