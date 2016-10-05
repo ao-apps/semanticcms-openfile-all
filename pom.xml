@@ -32,7 +32,7 @@ along with semanticcms-openfile-all.  If not, see <http://www.gnu.org/licenses /
 
 	<groupId>com.semanticcms</groupId>
 	<artifactId>semanticcms-openfile-all</artifactId>
-	<version>1.2-SNAPSHOT</version>
+	<version>1.2.0</version>
 	<packaging>pom</packaging>
 
 	<name>SemanticCMS OpenFile All</name>
@@ -44,7 +44,7 @@ along with semanticcms-openfile-all.  If not, see <http://www.gnu.org/licenses /
 		<connection>scm:git:git://github.com/aoindustries/semanticcms-openfile-all.git</connection>
 		<developerConnection>scm:git:git@github.com:aoindustries/semanticcms-openfile-all.git</developerConnection>
 		<url>http://github.com/aoindustries/semanticcms-openfile-all</url>
-		<tag>HEAD</tag>
+		<tag>semanticcms-openfile-all-1.2.0</tag>
 	</scm>
 
 	<dependencies>
