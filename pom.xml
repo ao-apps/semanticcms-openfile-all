@@ -36,12 +36,11 @@ along with semanticcms-openfile-all.  If not, see <http://www.gnu.org/licenses /
 	<packaging>pom</packaging>
 
 	<properties>
-		<bookPath>/openfile/all</bookPath>
 		<shortTitle>All</shortTitle>
 	</properties>
 
 	<name>SemanticCMS OpenFile All</name>
-	<url>https://semanticcms.com${bookPath}/</url><!-- Can't inherit due to multi-module -->
+	<url>https://semanticcms.com/openfile/all/</url>
 	<description>Convenience POM to include most SemanticCMS OpenFile features, not including documentation or examples.</description>
 	<inceptionYear>2016</inceptionYear>
 
