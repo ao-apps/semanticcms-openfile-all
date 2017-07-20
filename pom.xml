@@ -53,12 +53,12 @@ along with semanticcms-openfile-all.  If not, see <http://www.gnu.org/licenses /
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-openfile-servlet</artifactId>
-			<version>1.5.3-SNAPSHOT</version>
+			<version>1.5.3</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-openfile-taglib</artifactId>
-			<version>1.5.3-SNAPSHOT</version>
+			<version>1.5.3</version>
 		</dependency>
 	</dependencies>
 </project>
