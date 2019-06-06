@@ -32,7 +32,7 @@ along with semanticcms-openfile-all.  If not, see <http://www.gnu.org/licenses /
 	<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-all</artifactId><version>2.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>SemanticCMS 2 OpenFile All</name>
+	<name>SemanticCMS OpenFile All²</name>
 	<url>https://semanticcms.com/openfile/all/</url>
 	<description>Convenience POM to include most SemanticCMS OpenFile features, not including documentation or examples.</description>
 	<inceptionYear>2016</inceptionYear>
@@ -45,12 +45,34 @@ along with semanticcms-openfile-all.  If not, see <http://www.gnu.org/licenses /
 		<tag>HEAD</tag>
 	</scm>
 
+	<dependencyManagement>
+		<dependencies>
+			<!-- TODO: semanticcms-openfile-bom -->
+			<dependency>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId><version>2.0.0-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId><version>2.0.0-SNAPSHOT</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-taglib</artifactId><version>2.0.0-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-taglib</artifactId><version>2.0.0-SNAPSHOT</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
 	<dependencies>
 		<dependency>
-			<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId><version>2.0.0-SNAPSHOT</version>
+			<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-taglib</artifactId><version>2.0.0-SNAPSHOT</version>
+			<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-taglib</artifactId>
 		</dependency>
 	</dependencies>
 </project>
