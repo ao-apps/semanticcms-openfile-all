@@ -47,7 +47,6 @@ along with semanticcms-openfile-all.  If not, see <http://www.gnu.org/licenses /
 
 	<dependencyManagement>
 		<dependencies>
-			<!-- TODO: semanticcms-openfile-bom -->
 			<dependency>
 				<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId><version>1.6.1-SNAPSHOT</version>
 			</dependency>
