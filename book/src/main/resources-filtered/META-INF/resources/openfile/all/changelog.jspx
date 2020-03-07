@@ -49,9 +49,9 @@ along with semanticcms-openfile-all.  If not, see <http://www.gnu.org/licenses /
 			<changelog:release
 				projectName="@{documented.name}"
 				version="#{version}"
-				groupId="@{documented.groupId}"
+				groupId="@{project.groupId}"
 				artifactId="@{documented.artifactId}"
-				scmUrl="@{documented.scm.url}"
+				scmUrl="@{project.scm.url}"
 			>
 				<ul>
 					<li>Updated for <core:link book="/" page="/" /> 2 compatibility.</li>
@@ -64,9 +64,9 @@ along with semanticcms-openfile-all.  If not, see <http://www.gnu.org/licenses /
 			projectName="@{documented.name}"
 			version="1.4.0"
 			datePublished="2019-10-11T23:18:04-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Updated version of <core:link book="/openfile/servlet" page="/index.jspx" />.</li>
@@ -78,9 +78,9 @@ along with semanticcms-openfile-all.  If not, see <http://www.gnu.org/licenses /
 			projectName="@{documented.name}"
 			version="1.3.1"
 			datePublished="2019-06-22T04:14:50-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Using managed dependencies:
@@ -96,9 +96,9 @@ along with semanticcms-openfile-all.  If not, see <http://www.gnu.org/licenses /
 			projectName="@{documented.name}"
 			version="1.3.0"
 			datePublished="2019-04-20T23:33:25-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Minimum Java version changed from 1.6 to 1.7.</li>
@@ -110,9 +110,9 @@ along with semanticcms-openfile-all.  If not, see <http://www.gnu.org/licenses /
 			projectName="@{documented.name}"
 			version="1.2.3"
 			datePublished="2017-07-20T16:03:49-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Updated dependencies.</li>
@@ -123,9 +123,9 @@ along with semanticcms-openfile-all.  If not, see <http://www.gnu.org/licenses /
 			projectName="@{documented.name}"
 			version="1.2.2"
 			datePublished="2016-11-16T03:37:32-0600"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>New <ao:a href="https://aoindustries.com/ao-oss-parent/">AO OSS Parent</ao:a> POM to simplify <code>pom.xml</code> files.</li>
@@ -138,9 +138,9 @@ along with semanticcms-openfile-all.  If not, see <http://www.gnu.org/licenses /
 			projectName="@{documented.name}"
 			version="1.2.1"
 			datePublished="2016-10-20T19:14:00-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Improved Javadoc formatting.</li>
@@ -152,9 +152,9 @@ along with semanticcms-openfile-all.  If not, see <http://www.gnu.org/licenses /
 			projectName="@{documented.name}"
 			version="1.2.0"
 			datePublished="2016-10-04T22:20:00-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Improved Javadoc formatting.</li>
@@ -166,9 +166,9 @@ along with semanticcms-openfile-all.  If not, see <http://www.gnu.org/licenses /
 			projectName="@{documented.name}"
 			version="1.1"
 			datePublished="2016-09-11T16:57:00-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Use dependencyManagement instead of dependency for junit.</li>
@@ -179,9 +179,9 @@ along with semanticcms-openfile-all.  If not, see <http://www.gnu.org/licenses /
 			projectName="@{documented.name}"
 			version="1.0"
 			datePublished="2016-09-03T10:35:00-0500"
-			groupId="@{documented.groupId}"
+			groupId="@{project.groupId}"
 			artifactId="@{documented.artifactId}"
-			scmUrl="@{documented.scm.url}"
+			scmUrl="@{project.scm.url}"
 		>
 			<ul>
 				<li>Added "all" packages for convenience.</li>
