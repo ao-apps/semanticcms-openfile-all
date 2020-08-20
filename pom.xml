@@ -29,7 +29,7 @@ along with semanticcms-openfile-all.  If not, see <http://www.gnu.org/licenses /
 		<relativePath>../../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-all</artifactId><version>1.5.0-POST-SNAPSHOT</version>
+	<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-all</artifactId><version>1.5.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>SemanticCMS OpenFile All</name>
@@ -53,7 +53,7 @@ along with semanticcms-openfile-all.  If not, see <http://www.gnu.org/licenses /
 		<dependencies>
 			<!-- Direct -->
 			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId><version>1.9.0${POST-SNAPSHOT}</version>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId><version>1.9.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
 				<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-taglib</artifactId><version>1.5.6${POST-SNAPSHOT}</version>
