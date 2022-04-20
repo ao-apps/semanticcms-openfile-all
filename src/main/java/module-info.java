@@ -1,6 +1,6 @@
 /*
  * semanticcms-openfile-all - Convenience POM to include most SemanticCMS OpenFile features, not including documentation or examples.
- * Copyright (C) 2021  AO Industries, Inc.
+ * Copyright (C) 2021, 2022  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -21,7 +21,7 @@
  * along with semanticcms-openfile-all.  If not, see <https://www.gnu.org/licenses/>.
  */
 module com.semanticcms.openfile.all {
-	// Direct
-	requires transitive com.semanticcms.openfile.servlet; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId>
-	requires transitive com.semanticcms.openfile.taglib; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-taglib</artifactId>
+  // Direct
+  requires transitive com.semanticcms.openfile.servlet; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId>
+  requires transitive com.semanticcms.openfile.taglib; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-taglib</artifactId>
 }
