@@ -24,4 +24,4 @@ module com.semanticcms.openfile.all {
   // Direct
   requires transitive com.semanticcms.openfile.servlet; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId>
   requires transitive com.semanticcms.openfile.taglib; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-taglib</artifactId>
-} // TODO: Avoiding rewrite-maven-plugin-4.22.2 truncation
+}
