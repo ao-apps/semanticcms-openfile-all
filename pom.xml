@@ -112,13 +112,13 @@ along with semanticcms-openfile-all.  If not, see <https://www.gnu.org/licenses/
         <groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId>
         <configuration>
           <usedDependencies>
-            <!-- Direct -->
-            <dependency>com.semanticcms:semanticcms-openfile-taglib</dependency><!-- Required for module-info.java -->
+            <!-- Required for module-info.java -->
+            <dependency>com.semanticcms:semanticcms-openfile-servlet</dependency>
+            <dependency>com.semanticcms:semanticcms-openfile-taglib</dependency>
           </usedDependencies>
           <ignoredDependencies>
             <!-- No "module-info.java" in some release builds -->
             <dependency>com.aoapps:ao-lang</dependency>
-            <dependency>com.semanticcms:semanticcms-openfile-servlet</dependency>
           </ignoredDependencies>
         </configuration>
       </plugin>
