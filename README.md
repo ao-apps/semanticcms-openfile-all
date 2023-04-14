@@ -21,7 +21,7 @@ Convenience POM to include most [SemanticCMS OpenFile](https://github.com/ao-app
 ## Project Links
 * [Project Home](https://semanticcms.com/openfile/all/)
 * [Changelog](https://semanticcms.com/openfile/all/changelog)
-* [Maven Central Repository](https://central.sonatype.com/search?namespace=com.semanticcms&q=a%3Asemanticcms-openfile-all)
+* [Maven Central Repository](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-openfile-all)
 * [GitHub](https://github.com/ao-apps/semanticcms-openfile-all)
 
 ## Modules Included
