@@ -8,13 +8,13 @@
 [![semantic versioning: 2.0.0](https://semanticcms.com/ao-badges/semver-2.0.0.svg)](https://semver.org/spec/v2.0.0.html)
 [![license: LGPL v3](https://semanticcms.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-[![Build](https://github.com/ao-apps/semanticcms-openfile-all/actions/workflows/build.yml/badge.svg?branch=1.x)](https://github.com/ao-apps/semanticcms-openfile-all/actions?query=workflow%3ABuild)
+[![Build](https://github.com/ao-apps/semanticcms-openfile-all/actions/workflows/build.yml/badge.svg?branch=2.x)](https://github.com/ao-apps/semanticcms-openfile-all/actions?query=workflow%3ABuild)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.semanticcms/semanticcms-openfile-all/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.semanticcms/semanticcms-openfile-all)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.semanticcms%3Asemanticcms-openfile-all&metric=alert_status)](https://sonarcloud.io/dashboard?branch=1.x&id=com.semanticcms%3Asemanticcms-openfile-all)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.semanticcms%3Asemanticcms-openfile-all&metric=ncloc)](https://sonarcloud.io/component_measures?branch=1.x&id=com.semanticcms%3Asemanticcms-openfile-all&metric=ncloc)  
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.semanticcms%3Asemanticcms-openfile-all&metric=reliability_rating)](https://sonarcloud.io/component_measures?branch=1.x&id=com.semanticcms%3Asemanticcms-openfile-all&metric=Reliability)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.semanticcms%3Asemanticcms-openfile-all&metric=security_rating)](https://sonarcloud.io/component_measures?branch=1.x&id=com.semanticcms%3Asemanticcms-openfile-all&metric=Security)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.semanticcms%3Asemanticcms-openfile-all&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=1.x&id=com.semanticcms%3Asemanticcms-openfile-all&metric=Maintainability)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=2.x&project=com.semanticcms%3Asemanticcms-openfile-all&metric=alert_status)](https://sonarcloud.io/dashboard?branch=2.x&id=com.semanticcms%3Asemanticcms-openfile-all)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=2.x&project=com.semanticcms%3Asemanticcms-openfile-all&metric=ncloc)](https://sonarcloud.io/component_measures?branch=2.x&id=com.semanticcms%3Asemanticcms-openfile-all&metric=ncloc)  
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?branch=2.x&project=com.semanticcms%3Asemanticcms-openfile-all&metric=reliability_rating)](https://sonarcloud.io/component_measures?branch=2.x&id=com.semanticcms%3Asemanticcms-openfile-all&metric=Reliability)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=2.x&project=com.semanticcms%3Asemanticcms-openfile-all&metric=security_rating)](https://sonarcloud.io/component_measures?branch=2.x&id=com.semanticcms%3Asemanticcms-openfile-all&metric=Security)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=2.x&project=com.semanticcms%3Asemanticcms-openfile-all&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=2.x&id=com.semanticcms%3Asemanticcms-openfile-all&metric=Maintainability)
 
 Convenience POM to include most [SemanticCMS OpenFile](https://github.com/ao-apps/semanticcms-openfile) features, not including documentation or examples.
 
